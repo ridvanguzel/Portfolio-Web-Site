@@ -1,0 +1,386 @@
+@media (max-width:639.98px) {
+
+    /* Header */
+    .logo {
+        font-size: 26px;
+    }
+
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .navbar-list-item {
+        display: none;
+    }
+    /* Hamburger Menu */
+    .hamburger-menu{
+        display: block !important;
+    }
+    /* Hamburger Menu */
+
+    /* Header */
+    /* Home */
+    .home-container {
+        text-align: center;
+    }
+
+
+    .home-items {
+        flex-direction: column-reverse;
+        justify-content: space-around !important;
+    }
+
+    .typewriter-heading {
+        font-size: 30px;
+    }
+
+    .typewriter {
+        font-size: 30px;
+    }
+
+    .cursor {
+        font-size: 30px;
+    }
+
+    .avatar-circle img {
+        width: 340px;
+        height: 340px;
+    }
+.home-button-item{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    /* Home */
+    /* About */
+    .about-container {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .about-items {
+        grid-template-rows: repeat(1, 1fr) !important;
+        gap: 60px;
+    }
+
+    .about-detail {
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 40px;
+
+    }
+
+    .about-detail-text {
+        padding: 0 30px;
+    }
+
+    .about-detail-text>h3 {
+        font-size: 24px;
+    }
+
+    .about-detail-contact {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* About */
+    /* Services */
+    .services-container {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .service-elements {
+        grid-template-columns: repeat(1, 1fr) !important;
+
+    }
+
+    /* Services */
+    /* Resume */
+    .resume-container {
+        padding: 40px 10px;
+    }
+
+    .education-experience {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .skill-elements {
+        grid-template-columns: repeat(1, 1fr) !important;
+        column-gap: 50px;
+        row-gap: 0;
+    }
+
+    /* Resume */
+    /* Portfolio */
+    .portfolio-container {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .portfolio-navbar {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+    }
+
+    .portfolio {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* Modal */
+    .modal {
+        padding: 4px;
+    }
+
+    .modal-item {
+        flex-direction: column;
+    }
+
+    .mySlides>img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Modal */
+    /* Portfolio */
+    /* Testimonial */
+    .testimonial-container {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .testimonial-slider-items p {
+        padding: 0 40px !important;
+    }
+
+    .swiper-btn {
+        display: none !important;
+    }
+
+    /* Testimonial */
+    /* Contact */
+    .contact-container {
+        text-align: center;
+        padding: 40px 20px !important;
+    }
+
+    .contact-items {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .contact-right>p {
+        margin-right: 0;
+    }
+
+    .contact-social {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Contact */
+    .footer-container {
+        padding: 40px 10px;
+    }
+
+    .footer-items {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+
+
+@media (min-width:640px) and (max-width:991.98px) {
+
+    /* Header */
+    .logo {
+        font-size: 30px;
+    }
+
+    .navbar {
+        padding: 0 40px;
+    }
+
+    .navbar-list-item {
+        display: none;
+    }
+    /* Hamburger Menu  */
+    .navbar .hamburger-menu {
+        display: block !important;
+    }
+    /* Hamburger Menu  */
+    /* Header */
+    /* Home */
+    .home-container {
+        text-align: center;
+    }
+
+    .home-items {
+        flex-direction: column-reverse;
+        justify-content: space-around !important;
+    }
+
+    .typewriter-heading {
+        font-size: 30px;
+    }
+
+    .typewriter {
+        font-size: 40px;
+    }
+
+    .cursor {
+        font-size: 36px;
+    }
+
+    .home-button-item {
+        justify-content: center;
+    }
+
+  
+
+
+    /* Home */
+    /* About */
+    .about-container {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .about-items {
+        grid-template-rows: repeat(1, 1fr) !important;
+        gap: 60px;
+    }
+
+    .about-detail {
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 40px;
+
+    }
+
+    .about-detail-text {
+        padding: 0 30px;
+    }
+
+    .about-detail-text>h3 {
+        font-size: 24px;
+    }
+
+    .about-detail-contact {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* About */
+    /* Services */
+    .services-container {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .service-elements {
+        grid-template-columns: repeat(1, 1fr) !important;
+
+    }
+
+    /* Services */
+    /* Resume */
+    .resume-container {
+        padding: 40px 10px;
+    }
+
+    .education-experience {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .skill-elements {
+        grid-template-columns: repeat(1, 1fr) !important;
+        column-gap: 50px;
+        row-gap: 0;
+    }
+
+    /* Resume */
+    /* Portfolio */
+    .portfolio-container {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .portfolio-navbar {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+    }
+
+    .portfolio {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* Modal */
+    .modal {
+        padding: 4px;
+    }
+
+    .modal-item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mySlides>img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Modal */
+    /* Portfolio */
+    /* Testimonial */
+    .testimonial-container {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .testimonial-slider-items p {
+        padding: 0 40px !important;
+    }
+
+    .swiper-btn {
+        display: none !important;
+    }
+
+    /* Testimonial */
+    /* Contact */
+    .contact-container {
+        text-align: center;
+        padding: 40px 20px !important;
+    }
+
+    .contact-items {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .contact-right>p {
+        margin-right: 0;
+    }
+
+    .contact-social {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Contact */
+    .footer-container {
+        padding: 40px 10px;
+    }
+
+    .footer-items {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    .navbar {
+        padding: 0 20px;
+    }
+}
